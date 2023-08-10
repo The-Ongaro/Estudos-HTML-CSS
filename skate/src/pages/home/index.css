@@ -1,0 +1,1328 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.c-rs {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+
+.c-rs > svg {
+    height: 13px;
+    margin: 7px 9px;
+}
+
+.c-rs > svg:hover {
+    cursor: pointer;
+}
+
+.c-meio {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.barras {
+    display: none;
+}
+
+.c-meio > img {
+    height: 80px;
+    margin-right: 200px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-right: 12px;
+}
+
+.pesquisa > input {
+    height: 44px;
+    width: 470px;
+    border-radius: 11px;
+    padding: 15px;
+    border: 1px solid #000;
+    font: 14px 'skate';
+
+}
+
+.pesquisa > svg {
+    height: 27px;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+
+.pesquisa > svg:hover {
+    cursor: pointer;
+}
+
+.tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-icones {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0px 15px;
+}
+
+.c-icones > svg {
+    height: 20px;
+}
+
+.c-icones > a {
+    font: 12px 'skate';
+    margin-left: 0.25rem;
+    text-align: center;
+}
+
+.c-icones-c {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0px 15px;
+    position: relative;
+}
+
+.c-icones-c > svg {
+    height: 20px;
+}
+
+.c-icones-c > svg:hover {
+    cursor: pointer;
+}
+
+.redondo {
+    background-color: #000;
+    color: #fff;
+    font: 8px 'skate';
+    font-weight: bold;
+    line-height: 13px;
+    border-radius: 20px;
+    padding: 2px 4px;
+    position: absolute;
+    left: 22px;
+    top: -15px;
+}
+
+.redondo:hover {
+    cursor: pointer;
+}
+
+.c-icones-c > a {
+    font: 12px 'skate';
+    margin-left: 0.25rem;
+    text-align: center;
+}
+
+.c-icones-c > a:hover {
+    cursor: pointer;
+}
+
+.c-linha {
+    background-color: #000;
+    height: 0.2px;
+    width: 100vw;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    padding: 2px 65px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.i > a {
+    font: 14px 'skate';
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.i > a:hover {
+    cursor: pointer;
+}
+
+.i > svg {
+    height: .875em;
+}
+
+.i > svg:hover {
+    cursor: pointer;
+}
+
+.s1_rodas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 10px 50px 10px;
+}
+
+.s1_rodas> h1 {
+    font: 34px 'skate';
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.resp {
+    display: none;
+}
+
+.s1_rodas > p {
+    text-align: center;
+    font: 14px 'skate';
+    margin-bottom: 1.5rem;
+    line-height: 20px;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    position: relative;
+}
+
+.inicio > a {
+    font: 14px 'skate';
+    font-weight: 400;
+    text-align: left !important;
+}
+
+.inicio > a:hover {
+    cursor: pointer;
+}
+
+.inicio > p {
+    font: 14px 'skate';
+    font-weight: 400;
+    text-align: left !important;
+    margin: 0px 10px;
+}
+
+.r >a {
+    font: 14px 'skate';
+    font-weight: 400;
+    text-decoration: bolder;
+    text-align: left !important;
+}
+
+.inicio > input {
+    margin-left: 770px;
+    font: 14px 'skate';
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: #000;
+    transition: all 0.4s ease;
+    padding: 10px 80px 10px 12px;
+}
+
+.inicio > svg {
+    height: 20px;
+    position: absolute;
+    left: 1242px;
+    top: 11px;
+}
+
+.s2_check {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    padding: 0px 75px;
+    height: 553vh;
+}
+
+.lateral {
+    display: flex;
+    flex-direction: column;
+    width: 28vh;
+}
+
+.lateral > h1 {
+    margin-bottom: 0.5rem;
+    font: 20px 'skate';
+    font-weight: 700;
+}
+
+.lateral > p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font: 14px 'skate';
+    font-weight: 700;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 7px 0px;
+}
+
+.check > input {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.check > input:hover {
+    cursor: pointer;
+}
+
+.check > a {
+    font: 12px 'skate';
+    font-weight: normal;
+    margin-left: 14px;
+}
+
+.check > a:hover {
+    cursor: pointer;
+}
+
+.pre {
+    display: flex;
+    flex-direction: column;
+}
+
+.pre > p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font: 14px 'skate';
+    font-weight: 700;
+}
+
+.um {
+    display: flex;
+    flex-direction: row;
+}
+
+.um > a {
+    font: 12px 'skate';
+    font-weight: normal;
+    margin-right: 70px;
+    margin-bottom: 5px;
+}
+
+.dois {
+    display: flex;
+    flex-direction: row;
+}
+
+.dois > input {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-right: 16px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.dois > input:hover {
+    border: 1px solid #000;
+}
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#DDD;
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 5px 8px;
+    margin: 5px;
+}
+
+.circulo:hover {
+    cursor: not-allowed;
+}
+
+.circulo > img {
+    height: 10px;
+    margin-left: 5px; 
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    width: 72vw;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+}
+
+.rodas {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DDD;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    margin: 15px;
+    width: 300px;
+    height: 480px;
+    padding: 24px 16px;
+    transition: all 0.4s ease;
+    margin-right: 40px;;
+}
+
+.rodas:hover { 
+    box-shadow: 2px 2px 5px #cbcbcb;
+}
+
+.c-circulo {
+    padding: 10px;
+    background-color: #0ad926;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    font: 17px 'skate';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.c-circulo:hover {
+    cursor: pointer;
+}
+
+.rodas > img {
+    height: 300px;
+}
+
+.rodas > img:hover {
+    cursor: pointer;
+}
+
+.linha {
+    height: 0.2vh;
+    width: 21.7vw;
+    background-color: #000;
+}
+
+.linha:hover {
+    cursor: pointer;
+}
+
+.estrela {
+    margin-top: 25px;
+    width: 150px;
+    height: 28.84px !important;
+}
+
+.estrela:hover {
+    cursor: pointer;
+}
+
+.for-stars {
+    position: absolute;
+    top: 350px;
+    right: 113px;
+    margin-top: 25px;
+    width: 120px;
+    height: 27px !important;
+}
+
+.for-stars {
+    cursor: pointer;
+}
+
+.rodas > p {
+    color: #cbcbcb;
+    font: 11px 'skate';
+    position: absolute;
+    top: 385px;
+    right: 60px;
+}
+
+.rodas > p:hover {
+    cursor: pointer;
+}
+
+.numero-amarelo {
+    color: #daa81d !important;
+    font: 11px 'skate' !important;
+    position: absolute !important;
+    top: 385px !important;
+    right: 60px !important;
+}
+
+.numero-amarelo:hover {
+    cursor: pointer;
+}
+
+.n {
+    display: flex;
+    flex-direction: column;
+}
+
+.n > a {
+    font: 14px 'skate';
+    line-height: 16px;
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.n > a:hover {
+    cursor: pointer;
+    color: #cbcbcb;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p > a {
+    margin-right: 10px;
+    text-decoration: line-through;
+    font: 14px 'skate';
+}
+
+.p > a:hover {
+    cursor: pointer;
+    color: #cbcbcb;
+}
+
+.p > p {
+    font: 20px 'skate';
+    line-height: 16px;
+}
+
+.rodas > a {
+    margin-top: 10px;
+    font: 12px 'skate';
+}
+
+.r-botoes {
+    display: none;
+}
+
+.rodas2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DDD;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    width: 315px;
+    height: 490px;
+    padding: 24px 16px;
+    transition: all 0.4s ease;
+}
+
+.rodas2:hover { 
+    box-shadow: 2px 2px 5px #cbcbcb;
+}
+
+.c-circulo {
+    padding: 10px;
+    background-color: #0ad926;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    font: 17px 'skate';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.imagem-r {
+    height: 325px !important;
+}
+
+.linha-2 {
+    height: 0.2vh;
+    width: 21.7vw;
+    background-color: #000;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
+
+.estrela-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 15px;
+    width: 150px;
+    height:28.84px;
+    margin-top: 28px;
+    margin-left: -2.5px;
+}
+
+.num {
+    color: #cbcbcb;
+    font: 11px 'skate';
+    position: absolute;
+    top: 387px;
+    right: 60px;
+}
+
+.n1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2px;
+}
+
+.n1 > a {
+    font: 14px 'skate';
+    line-height: 16px;
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.n1 > a:hover {
+    cursor: pointer;
+    color: #cbcbcb;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p > a {
+    margin-right: 10px;
+    text-decoration: line-through;
+    font: 14px 'skate';
+    transition: all 0.4s ease;
+}
+
+.p > p {
+    font: 20px 'skate';
+    line-height: 16px;
+}
+
+.rodas2 > a {
+    margin-top: 10px;
+    font: 12px 'skate';
+}
+
+.r2-botoes {
+    display: none;
+}
+
+.mudar {
+    height: 268px;
+    width: 298px;
+}
+
+.c-reto {
+    font: 17px 'skate';
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.c-reto:hover { 
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.pa {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px !important;
+}
+
+.dep {
+    display: flex;
+    flex-direction: column;
+    margin-right: 275px;
+}
+
+.dep > h2 {
+    font: 20px 'skate';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.dep > a {
+    font: 14px 'skate';
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+
+.dep > a:hover {
+    cursor: pointer;
+    color: #cbcbcb;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    margin-right: 190px;
+}
+
+.cont > h2 {
+    font: 20px 'skate';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.whats {
+    display: flex;
+    flex-direction: row;
+}
+
+.whats > a {
+    font: 14px 'skate';
+    margin-bottom: 20px;
+}
+
+.whats > a:hover { 
+    cursor: pointer;
+}
+
+.whats > svg {
+    height: 1.25em;
+    margin-right: 10px;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: row;
+}
+
+.telefone > a {
+    font: 14px 'skate';
+    margin-bottom: 20px;
+}
+
+.telefone > a:hover {
+    cursor: pointer;
+}
+
+.telefone > svg {
+    height: 1.25em;
+    margin-right: 10px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.email > a {
+    font: 14px 'skate';
+    margin-bottom: 20px;
+}
+
+.email > a:hover {
+    cursor: pointer;
+}
+
+.email > svg {
+    height: 1.25em;
+    margin-right: 10px;
+}
+
+.local {
+    display: flex;
+    flex-direction: row;
+}
+
+.local > a {
+    font: 14px 'skate';
+    margin-bottom: 20px;
+}
+
+.local > svg { 
+    height: 1.25em;
+    margin-right: 10px;
+}
+
+.conec { 
+    display: flex;
+    flex-direction: column;
+}
+
+.conec > h2 {
+    font: 20px 'skate';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.r-rs {
+    display: flex;
+    flex-direction: row;
+}
+
+.r-circ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    transition: all 0.4s ease;
+}
+
+.r-circ:hover { 
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.r-circ > svg {
+    height: 20px;
+    fill: #fff;
+    text-align: center;
+}
+
+.r-linha {
+    background-color: #cbcbcb;
+    height: 0.1px;
+    width: 84vw;
+    margin-bottom: 50px;
+}
+
+.ebit {
+    margin-right: 1140px;
+    margin-bottom: 25px;
+}
+
+.preto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    width: 100vw;
+    height: 57px;
+}
+
+.preto > a {
+    color: #fff;
+    font: 12px 'skate';
+}
+
+.preto > svg {
+    margin-right: 50px; 
+    width: 130px;
+    fill: #fff;
+    transition: all 0.4s ease;
+}
+
+.preto > svg:hover { 
+    cursor: pointer;
+    fill: #cbcbcb;
+}
+
+.grudados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grudados > img { 
+    position: fixed;
+    box-shadow: 1px 0px 5px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    height: 35px;
+}
+
+.g-whats { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px !important;
+    right: 10px !important;
+    z-index: 100;
+    color: white;
+    background-color: #4dc247;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    border-radius: 50%;
+    padding: 10px 14px;
+}
+
+.g-whats:hover {
+    cursor: pointer;
+}
+
+.g-whats > svg { 
+    fill: #fff;
+    height: 1.60em;
+}
+
+@media (max-width: 702px) {
+
+    .container {
+        width: 702px;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+
+    .cabeçalho {
+        width: 702px;
+        align-items: space-between;
+       
+    }
+
+    .c-rs {
+        display: none;
+    }
+
+    .c-meio {
+        height: 200px;
+        justify-content: center;
+    }
+
+    .barras {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 25px;
+    }
+
+    .barra {
+        background-color: #000;
+        height: 2px;
+        width: 25px;
+        margin-bottom: 7px;
+    }
+
+    .c-meio > img {
+        height: 70px;
+        position: absolute;
+        top: 35px;
+        padding: 10px;
+        left: 280px;
+    }
+
+    .pesquisa {
+        margin-top: 70px;
+        margin-right: 70px;
+        margin-left: 98px;
+    }
+
+    .pesquisa  > input {
+        width: 675px;
+    }
+
+    .tres {
+        position: relative;
+    }
+
+    .c-icones {
+        display: none;
+        position: relative;
+    }
+
+    .c-icones-c {
+        position: relative;
+    }
+
+    .c-icones-c > svg {
+        height: 27px;
+        position: absolute;
+        top: -40px;
+        right: 100px;
+    }
+
+    .redondo {
+        position: absolute;
+        font-size: 8px;
+        padding: 3px 5px;
+        top: -50px;
+        left: -110px;
+    }
+
+    .c-icones-c > a {
+        display: none;
+    }
+
+    .c-linha {
+        display: none;
+    }
+
+    .conteudo {
+        position: relative;
+        height: 250px;
+    }
+
+    .conteudo > h1 {
+        font-size: 28px;
+    }
+
+    .conteudo > p {
+        font-size: 12px;
+        width: 500px;
+    }
+
+    .resp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .resp > input {
+        width: 250px;
+        height: 45px;
+        font: 16px 'skate';
+        color: #000;
+        padding: 13px 35px 12px 12px;
+        border-radius: 10px;
+        margin: 0px 5px -10px 5px;
+    }
+
+    .resp > svg {
+        height: 16px;
+    }
+
+    .seta {
+        top: 13px;
+        right: 22px;
+        position: absolute;
+    }
+
+    .chave {
+        position: absolute;
+        top: 13px;
+        left: 223px;
+    }
+
+    .inicio {
+        width: 100px;
+        align-items: flex-start;
+        position: absolute;
+        top: -25px;
+        left: 170px;
+    }
+
+    .inicio > input {
+        display: none;
+    }
+
+    .inicio > svg {
+        display: none;
+    }
+
+    .opcoes {
+        display: none;
+    }
+
+    .lc {
+        width: 702px;
+    }
+
+    .lateral {
+        display: none;
+    }
+
+    .lateral > h1 {
+        display: none;
+    }
+
+    .lateral > p {
+        display: none;
+    }
+
+    .pre {
+        display: none;
+    }
+
+    .check {
+        display: none;
+    }
+
+    .centro {
+        align-items: center;
+        height: 1300vh;
+    }
+
+    .produtos {
+        margin-left: 50px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rodas {
+        height: 800px;
+        width: 500px;
+    }
+
+    .rodas > img {
+        width: 550px;
+        height: 550px;
+    }
+
+    .mudar {
+        width: 495px !important;
+        height: 535px !important;
+    }
+
+    .linha {
+        width: 500px;
+        height: 4px;
+    }
+
+    .estrela {
+        width: 150px !important;
+        height: 28.84px !important;
+    }
+
+    .for-stars {
+        top: 577px;
+        right: 205px;
+        width: 120px !important;
+        height: 27px !important;
+    }
+
+    .rodas > p {
+        font-size: 11px;
+    }
+
+    .n > a {
+        font-size: 14px;
+    }
+
+    .p > a {
+        font-size: 14px;
+    }
+
+    .p > p {
+        font-size: 20px;
+    }
+
+    .rodas > a {
+        font-size: 12px;
+    }
+
+    .r-botoes {
+        display: flex;
+        flex-direction: row;
+        margin-top: 35px;
+        justify-content: space-between;
+    }
+
+    .b {
+        background-color: #000;
+        color: #fff;
+        font: 10px 'skate';
+        padding: 10px;
+        width: 320px;
+        height: 33px;
+        letter-spacing: 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .w {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        width: 140px;
+        border: solid 1px #000;
+        margin-left: 10px;
+        border-radius: 30px;
+    }
+
+    .w > svg {
+        height: 15px;
+    }
+
+    .rodas2 {
+        height: 800px;
+        width: 500px;
+        position: relative;
+    }
+
+    .imagem-r {
+        width: 550px !important;
+        height: 550px !important;
+    }
+
+    .linha-2 {
+        top: 575px;
+        width: 500px;
+        height: 4px;
+    }
+
+    .estrela-2 {
+        position: absolute;
+        top: 575px;
+        right: 75px;
+        margin-right:105px;
+        width: 150px;
+        height: 28.84px;
+    }
+
+    .num {
+        font-size: 11px;
+    }
+
+    .n1 {
+        margin-top: 58px;
+    }
+
+    .n1 > a {
+        font-size: 14px;
+    }
+
+    .p > a {
+        font-size: 14px;
+    }
+
+    .p > p {
+        font-size: 20px;
+    }
+
+    .rodas2 > a {
+        font-size: 12px;
+    }
+
+    .r2-botoes {
+        display: flex;
+        flex-direction: row;
+        margin-top: 35px;
+        justify-content: space-between;
+    }
+
+    .b {
+        background-color: #000;
+        color: #fff;
+        font: 10px 'skate';
+        padding: 10px;
+        width: 320px;
+        height: 33px;
+        letter-spacing: 1px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .w {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 33px;
+        width: 140px;
+        border: solid 1px #000;
+        margin-left: 10px;
+        border-radius: 30px;
+    }
+
+    .w > svg {
+        height: 15px;
+    }
+
+    .rodape {
+        margin-top: 13380px;
+    }
+
+    .pa {
+        flex-direction: column;
+        padding: none;
+        width: 702px;
+    }
+
+    .pa > div {
+        margin-bottom: 20px;
+        margin-left: -30px;
+    }
+
+    .r-linha {
+        width: 675px;
+    }
+
+    .ebit {
+        width: 702px;
+        height: 100px;
+    }
+
+    .ebit > img {
+        margin-left: 585px;
+    }
+
+    .preto {
+        width: 702px;
+        height:85px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 20px 15px;
+    }
+
+    .preto > svg {
+        display: none;
+    }
+
+    .grudados {
+        width: 702px;
+    }
+
+    .grudados > img {
+        height: 50px;
+        width: 150px;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .g-whats {
+        margin-right: 5px;
+        position: fixed;
+        z-index: 100;
+    }
+
+}

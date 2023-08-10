@@ -1,0 +1,339 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0px 0px 20px #d8d8d8;
+}
+
+
+.inicio img {
+    height: 40px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 60px 30px;
+}
+
+.textos2 {
+    width: 480px;
+    min-width: 480px;
+}
+
+.textos2 h1 {
+    font-size: 53px;
+    line-height: 60px;
+    font-family: 'font15';
+}
+
+.textos2 h1 span {
+    color: #eb194b;
+}
+
+.textos2  p {
+    font-size: 22px;
+    margin: 20px 0px;
+    font-family: 'font6';
+    color: #353535!important;
+}
+
+.textos2 button {
+    border: 2px solid #eb194b;
+    border-radius: 40px;
+    outline: none;
+
+    padding: 20px 30px;
+    background-color: #fff;
+    
+    color: #eb194b;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.textos2  button:hover {
+    background-color: #eb194b;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.images {
+    align-self: center;
+}
+.images img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin-left: 50px;
+
+    position: relative;
+    top: -50px;
+}
+.cad{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.cad-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #eb194b;
+    color: #fff;
+    padding: 50px 40px 200px 40px;
+
+    width: 100%;
+    max-width: 1000px;
+}
+
+.cad-box h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 40px;
+    font-family: 'font14';
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px;
+    
+    width: 100%;
+    max-width: 600px;
+}
+
+.form input {
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+    width: 100%;
+    
+    margin: 0px 5px;
+}
+
+.cas-box button {
+    color: #eb194b;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    margin-top: 30px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 600px;
+}
+
+.radio label {
+    margin: 0px 5px;
+}
+
+.radio > div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 70px 20px;
+}
+
+.cards > h1 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 800px;
+
+    color: #353535!important;
+    margin-bottom: 60px;
+    font-family: 'font8';
+}
+
+.cards h1 span {
+    color: #eb194b;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: row;
+
+    margin: 30px;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    padding: 30px 30px;
+    max-width: 350px;
+
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 15px;
+}
+
+.cartao img {
+    width: 50px;
+
+    position: absolute;
+    top: -25px;
+}
+.cartao h1 {
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+
+    margin-bottom: 15px;
+    font-family: 'font7';
+}
+.cartao p {
+    text-align: center;
+    font-size: 16px;
+ 
+    font-family: 'font8';
+}
+.g-whats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px !important;
+    right: 10px !important;
+    z-index: 100;
+    color: white;
+    background-color: #4dc247;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    border-radius: 50%;
+    padding: 10px 14px;
+}
+.g-whats > svg {
+    fill: #fff;
+    height: 1.6em;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .textos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textos2 {
+        min-width: unset;
+        width: unset;
+        max-width: 700px;
+    }
+
+    .textos2 h1 { 
+        text-align: center;
+        font-size: 30px; 
+        line-height: 35px;
+    }
+
+    .textos2 p {
+        font-size: 20px;
+    }
+
+     .btn {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        padding: 10px;
+        width: 100%;
+        background-color: #eb194b;
+    }
+
+    .textos2 button {
+        /* width: 100%; */
+        display: none;
+    } 
+
+    .images img {
+        top: unset;
+        margin-left: unset;
+    }
+
+    .cas-box h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    .cards1{
+        flex-direction: column;
+        margin: unset;
+        width: 90%;
+    }
+    .cartao {
+        margin: 30px 0px;
+        max-width: unset;
+        width: 100%;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .cards > h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .textos2 {
+        min-width: unset;
+        width: unset;
+    }
+
+    .form {
+        flex-direction: column;
+        align-items: center;
+        margin: unset;
+    }
+
+    .form input {
+        margin: 10px;
+    }
+
+    .cas-box {
+        padding: 50px 40px;
+    }
+
+}

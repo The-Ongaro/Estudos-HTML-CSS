@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'skate';
+    src: url('../assests/fonts/skate.woff2');
+}
